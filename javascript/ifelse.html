@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=105;
+        if(a%2==0){
+            document.write("even number");
+        }
+        else{
+            document.write("odd number");
+        }
+        var b = 23, c = 56, d = 12;
+        var arr = [a, b, c, d];
+        arr.sort(function(x, y) { return y - x; });
+        document.write("<br>Second largest value: " + arr[1]);
+    </script>
+</body>
+</html>
